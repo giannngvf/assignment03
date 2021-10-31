@@ -13,7 +13,7 @@ def get_address():
 def display_output(name_function, age_function, address_function):
     output_function = print(f"Hi, my name is {name}. I am {age} years old and I live in {address}.")
 
-name = get_name()
-age = get_age()
-address = get_address()
-display_output(name, age, address)
+name = get_name() #this ask user's name
+age = get_age() #this ask user's age
+address = get_address() #this ask user's address
+display_output(name, age, address) #this display the name, age, and address of user
